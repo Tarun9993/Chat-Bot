@@ -6,7 +6,7 @@ const Response = ({ response }) => {
 
   return (
     <div className='h-[400px] overflow-auto custom-scrollbar'>
-  <div className='lg:mx-30 mx-6 bg-[#F9F9F9] shadow-xl rounded-xl p-4 border-neutral-800'>
+  <div className='lg:mx-30 mx-6 bg-[#F9F9F9] shadow-md rounded-lg p-4 border-neutral-800'>
     {response.candidates.map((candidate, index) => (
       <div key={index}>
         <p className='text-neutral-900 font-serif text-justify'>
